@@ -1,0 +1,18 @@
+ 
+  .sidenav-wrapper {
+    position: absolute;
+    top: 50px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: black;
+  }
+  mat-sidenav-content {
+    display: flex;
+
+    flex-direction: column;
+    justify-content: flex-start; /* Align content to the top */
+    align-items: center;
+     
+  }
+  
