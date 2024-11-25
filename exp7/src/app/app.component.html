@@ -1,20 +1,10 @@
-<mat-toolbar color="primary">
-  <button mat-icon-button (click)="nav.toggle()" aria-label="Toggle navigation">
-    Menu
-  </button>
-</mat-toolbar>
-
 <mat-sidenav-container class="sidenav-wrapper">
-  <mat-sidenav #nav mode="side" opened="false">
-    <a mat-button [routerLink]="['profile']">
-      <mat-icon></mat-icon> Profile
-    </a>
-    <br><br>
-    <a mat-button [routerLink]="['about']">
-      <mat-icon></mat-icon> About
-    </a>
+  <mat-sidenav #nav mode="side" opened="true">
+    <section><span>File  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></section>
+    <br>
+    <section><span>Edit &emsp;</span></section>
   </mat-sidenav>
   <mat-sidenav-content>
-    <router-outlet></router-outlet>
+    MainContain
   </mat-sidenav-content>
 </mat-sidenav-container>
